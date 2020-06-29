@@ -30,20 +30,19 @@ function registerUser(form) {
 function hide() {
     registerDialogDisplayDefault = registerDialog.style.display;
     registerDialog.style.display = "None";
-
-
 }
 
 window.onload = function () {
 
-    hide()
-
+    hide();
+    
     registerForm.addEventListener('submit', function (event) {
         if (registerForm.checkValidity() === false  && !validation(registerForm.email.value, registerForm.phone.value)) {
             event.preventDefault();
             event.stopPropagation();
         }
         registerForm.classList.add('was-validated');
+        
     }, false);
 
 }

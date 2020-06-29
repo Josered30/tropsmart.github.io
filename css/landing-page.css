@@ -37,7 +37,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 
@@ -91,16 +91,16 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
+.component {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.testimonials .testimonial-item {
+.component .people-item {
   max-width: 18rem;
 }
 
-.testimonials .testimonial-item img {
+.component .people-item img {
   max-width: 12rem;
   box-shadow: 0 5px 5px 0 #adb5bd;
 }
@@ -121,7 +121,7 @@ header.masthead h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 footer.footer {
