@@ -16,11 +16,9 @@ h6 {
   font-weight: 700;
 }
 
-
-.second-section{
+.second-section {
   background-color: #d4d4d4;
 }
-
 
 header.masthead {
   position: relative;
@@ -28,7 +26,6 @@ header.masthead {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
-
 
 header.masthead .overlay {
   position: absolute;
@@ -39,7 +36,6 @@ header.masthead .overlay {
   left: 0;
   opacity: 0.4;
 }
-
 
 header.masthead h1 {
   font-size: 2rem;
@@ -97,11 +93,12 @@ header.masthead h1 {
 }
 
 .component .people-item {
-  max-width: 18rem;
+  max-width: 20rem;
 }
 
 .component .people-item img {
-  max-width: 12rem;
+  max-height: 10rem;
+  min-width: 10rem;
   box-shadow: 0 5px 5px 0 #adb5bd;
 }
 
